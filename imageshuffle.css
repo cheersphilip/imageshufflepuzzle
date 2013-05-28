@@ -1,0 +1,28 @@
+.current{
+}
+
+body {
+  background-color:beige;
+}
+
+#someDiv {
+  width:550px;
+  height:80px;
+  margin:0 auto;
+  margin-top:50px;
+  overflow:hidden;
+  background-color:white;
+  padding:10px;
+}
+
+
+#someDiv > p {
+  display:none;
+  text-align:center;
+}
+
+span {
+  font-size:small;
+  vertical-align:sub;
+  margin-left:8px;
+}
