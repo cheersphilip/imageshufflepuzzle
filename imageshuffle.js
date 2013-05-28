@@ -1,4 +1,10 @@
-$(document).ready(function(){
+// Create the canvas
+var canvas = document.createElement("canvas");
+var ctx = canvas.getContext("2d");
+canvas.width = 500;
+canvas.height = 400;
+document.getElementById("main").appendChild(canvas);
+
 
   var mainArray = $("#someDiv > p"); 
   var oddArray = []; 
@@ -53,4 +59,4 @@ $(document).ready(function(){
   shuffle(mainArray);
   animate(mainArray);
   
-});
+
